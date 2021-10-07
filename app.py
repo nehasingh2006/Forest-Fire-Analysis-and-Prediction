@@ -22,9 +22,9 @@ def predict():
     output='{0:.{1}f}'.format(prediction[0][1], 2)
 
     if output>str(0.5):
-        return render_template('forest_fire.html',pred='Your Forest is in Danger.\nPercentage of fire occuring is {}%'.format(float(output)*100),bhai="danger")
+        return render_template('forest_fire.html',pred='Your location is in danger of forest fire.\nPercentage of fire occuring is {}%'.format(float(output)*100),bhai="danger")
     else:
-        return render_template('forest_fire.html',pred='Your Forest is safe.\n Percentage of fire occuring is {}%'.format(float(output)*100),bhai="safe")
+        return render_template('forest_fire.html',pred='Your location is safe from forest fire.\n Percentage of fire occuring is {}%'.format(float(output)*100),bhai="safe")
 
 
 if __name__ == '__main__':
