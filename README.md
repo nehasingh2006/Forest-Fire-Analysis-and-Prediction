@@ -1,4 +1,4 @@
-# <ins>Forest Fire Prediction Website</ins> 
+# <ins>Predicting Forest Fire Probability in your location</ins> 
 
-#### A website that predicts the percentage of a forest fire taking place based on oxygen,temperature and humidity content made using Logistic Regression and Flask.
+#### This website will predicts the percentage of a forest fire happening in your place based on oxygen,temperature and humidity content made using Logistic Regression and Flask.*[ Web link ] (https://predictforestfire.herokuapp.com/) 
 
